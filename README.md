@@ -19,17 +19,26 @@ Features
 ---------------------------------
 
 Middleware router for different modules
+
 Separate controllers for separate modules
+
 From the controller we can call actull backend API using 'axios'
+
 Logger -    Winston Logger - Putting logs in 'AppLogs/Logger' for now
+
             PM2 Logger - Error and Out logs in 'AppLogs/PM2' for now
+
 PM2 Instance - different ENVs
+
 Validator - JOI Validator used for validation request payloads
+
 CORS - Cross origin filtration
+
 signalTraps - incase app closed. Though in dev/qa/stage/prod, we will use PM2 monitoring tool, so will be always up in case of unwanted shutdowns
 
 Review Comments
 ---------------------------------
 
 Q: <Add your review / question>
+
 A:
