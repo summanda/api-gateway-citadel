@@ -1,0 +1,2 @@
+{"level":"info","message":"This resource doesn't exists - ValidationError: \"billYear\" must be less than or equal to 2023","service":"user-service"}
+{"level":"info","message":"This resource doesn't exists - ValidationError: \"billYear\" must be less than or equal to 2023","service":"user-service"}
