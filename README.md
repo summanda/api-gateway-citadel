@@ -10,10 +10,28 @@ Run Locally
 npm i
 npm start
 
+How to test API
+---------------------------------
+
+curl --location --request POST 'localhost:8005/bill' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "billName": "NewBill",
+    "billDetails": "New bill details",
+    "billYear": 2023,
+    "billCreatedBy": "suman.mandal@gridx.com"
+}'
+
+curl --location --request GET 'localhost:8005/bill/1'
+
+etc.
+
 Improvement for future
 ---------------------------------
 
 Will add build and run app from build after 'tsc'
+
+Will add testing (JEST) in future
 
 Features
 ---------------------------------
